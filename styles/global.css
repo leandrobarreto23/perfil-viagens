@@ -34,3 +34,14 @@ body {
 body, button, input {
   font: var(--text-df);
 }
+
+a {
+  color: inherit; /* cor herdada do pai */
+  text-decoration: none;
+  transition: .3s ease-out;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
