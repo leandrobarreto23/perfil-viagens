@@ -5,8 +5,8 @@
 
   /* shorthand font: font-size/line-height font-family*/
   --text-df: 1.6rem/150% var(--font-family);
-  --text-sm: 1.2rem/175% var(--font-family);
-  --text-md: 1.4rem/175% var(--font-family);
+  --text-sm: 1.2rem/170% var(--font-family);
+  --text-md: 1.4rem/170% var(--font-family);
   --text-lg: bold 3.2rem/125% var(--font-family);
   
   --font-family: "Poppins", sans-serif;
