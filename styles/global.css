@@ -3,6 +3,14 @@
 :root {
   font-size: 62.5%;
 
+  /* shorthand font: font-size/line-height font-family*/
+  --text-df: 1.6rem/150% var(--font-family);
+  --text-sm: 1.2rem/175% var(--font-family);
+  --text-md: 1.4rem/175% var(--font-family);
+  --text-lg: bold 3.2rem/125% var(--font-family);
+  
+  --font-family: "Poppins", sans-serif;
+
   --brand-color: #EF5F4C;
   --background-color: #ffffff;
   --surface-color: #F5F5F5;
@@ -24,6 +32,5 @@ body {
 }
 
 body, button, input {
-  font-size: 1.6rem;
-  font-family: "Poppins", sans-serif;
+  font: var(--text-df);
 }
